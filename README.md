@@ -6,3 +6,5 @@ I have created a file called first.py which contains a warm up of basics in pyth
 This will help me to proceed in pyhton and ready for advanced python for data sciences.
 
 can't wait what all new skills i'll gain.
+
+Today i proceeded to the next one called second.py, this one contains the loop logic and conditional statements. i used a challenge  of opening a vault in three levels and if all passed successfully then the vault opens.

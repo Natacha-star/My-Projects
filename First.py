@@ -29,4 +29,4 @@ print(f"You study {weekly_working_hours} hours per week. If consistent, that is 
 print(f"You sleep {Hours} hours per day, leaving {rem_hours} hours for other activities.")
 print(f"Your desired monthly income is {income}, which equals {yearly_income} per year.")
 
-print(f"Congratulations {Name}! Keep pushing toward your goals 🚀")
+print(f"Congratulations {Name}! Keep pushing toward your goals ")
