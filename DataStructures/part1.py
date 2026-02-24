@@ -6,7 +6,7 @@ total = 0
 for i in range(10):
     val = int(input("Enter mark: "))
     marks.append(val)
-    total += val # Add to total as we go
+    total += val # Add to total as we go to make it cleaner
 
 # 2. Calculations
 average = total / 10
