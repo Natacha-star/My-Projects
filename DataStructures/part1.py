@@ -14,4 +14,5 @@ highest = max(marks)
 lowest = min(marks)
 
 print(f"Total: {total}, Average: {average}")
-print(f"High: {highest}, Low: {lowest}")
+print(f"High: {highest}")
+print(f"Low: {lowest}")
