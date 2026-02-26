@@ -23,3 +23,29 @@ for c in range(2): # Loop through Classes
     
 
 print(f"Overall School Average: {grand_total / total_marks_count}")
+
+# 2 Rooms, 7 Days, 3 Times
+temp_data = [
+    # Room 1
+    [[22, 24, 21], [23, 25, 22], [20, 22, 19], [21, 23, 20], [24, 26, 23], [25, 27, 24], [22, 24, 21]],
+    # Room 2
+    [[18, 20, 17], [19, 21, 18], [17, 19, 16], [18, 20, 17], [21, 23, 20], [22, 24, 21], [19, 21, 18]]
+]
+
+# Start by assuming the very first temperature is both highest and lowest
+highest = temp_data[0][0][0]
+lowest = temp_data[0][0][0]
+
+# Triple loop to check every single value
+for r in range(2):     # Rooms
+    for d in range(7): # Days
+        for t in range(3): # Times
+            current_temp = temp_data[r][d][t]
+            
+            if current_temp > highest:
+                highest = current_temp
+            if current_temp < lowest:
+                lowest = current_temp
+
+print(f"Highest Temperature Recorded: {highest}°C")
+print(f"Lowest Temperature Recorded: {lowest}°C")
