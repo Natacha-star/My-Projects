@@ -7,6 +7,7 @@ school_data = [
 
 grand_total = 0
 
+
 total_marks_count = 12 # 2 classes * 3 students * 2 subjects
 
 # Logic to calculate averages
@@ -17,6 +18,7 @@ for c in range(2): # Loop through Classes
             val = school_data[c][s][sub]
             class_total += val
             grand_total += val
+
             print(f"Class {c+1}, Student {s+1}, Subject {sub+1}: {val}")
             
     print(f"Average for Class {c+1}: {class_total / 6}")
@@ -46,6 +48,8 @@ for r in range(2):     # Rooms
                 highest = current_temp
             if current_temp < lowest:
                 lowest = current_temp
+
+
 
 print(f"Highest Temperature Recorded: {highest}°C")
 print(f"Lowest Temperature Recorded: {lowest}°C")
